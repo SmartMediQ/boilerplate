@@ -12,8 +12,9 @@ setup(
   long_description=long_description,
   long_description_content_type="text/markdown",
   url="https://github.com/SmartMediQ/...",
+  package_dir={"": "src"},
   packages=find_packages(
-    where="src",
+    where="src", include=["..."],
   ),
   classifiers=[
     "Operating System :: OS Independent",
