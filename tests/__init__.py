@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 # Add the parent directory to the sys.path
 sys.path.append(os.path.join(
-  os.path.dirname(__file__), os.pardir,
+  os.path.dirname(__file__), os.pardir, "src",
 ))
 
 # Don't write .pyc files
